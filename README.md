@@ -1,4 +1,4 @@
-# bubble-sort-and-binary-search
+# bubble-binary
 
 ![image](https://www.codefactor.io/repository/github/KennyOliver/bubble-binary/badge?style=for-the-badge)
 
