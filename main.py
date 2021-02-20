@@ -1,13 +1,13 @@
 def bubble_sort(data):
   length = len(data) - 1
-  sorted = False
+  is_sorted = False
   
   while not sorted:
-    sorted = True
+    is_sorted = True
     for i in range(length):
       if data[i] > data[i+1]:
         data[i+1],data[i] = data[i],data[i+1]
-        sorted = False
+        is_sorted = False
   return data
 #====================
 def binary_search(structure,query):
