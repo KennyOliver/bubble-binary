@@ -20,12 +20,12 @@ def binary_search(structure,query):
       return midpoint
     else:
       if structure[midpoint] < query:
-        midpoint = end + 1
+        start = midpoint + 1
       else:
-        midpoint = start - 1
+        end = midpoint - 1
     
   return False
 #====================
 # MAIN PROGRAM
 arr = [1,5,2,4,3]
-print(binary_search(bubble_sort(arr),2))
+print(f"Found at index [{binary_search(bubble_sort(arr),2)}]")
